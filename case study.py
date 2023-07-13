@@ -12,6 +12,5 @@ for num in range(1, 101):
     else:
         result.append(str(num))
 
-# Write the result array to 'output.json'
 with open('output.json', 'w') as f:
     json.dump(result, f)
